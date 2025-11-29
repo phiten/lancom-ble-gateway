@@ -9,5 +9,7 @@
   "issue_tracker": "https://github.com/phiten/lancom-ble-gateway/issues",
   "requirements": [],
   "version": "1.2.0",
-  "platforms": ["sensor"]
+  "platforms": ["sensor"],
+  "icon": "images/Lancom_Systems_favicon.svg",
+  "logo": "images/Lancom_Systems_logo.svg"
 }
