@@ -10,6 +10,6 @@
   "requirements": [],
   "version": "1.2.0",
   "platforms": ["sensor"],
-  "icon": "images/Lancom_Systems_favicon.svg",
-  "logo": "images/Lancom_Systems_logo.svg"
+  "icon": "images/Lancom_Systems_favicon.png",
+  "logo": "images/Lancom_Systems_logo.png"
 }
