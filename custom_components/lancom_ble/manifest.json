@@ -1,0 +1,13 @@
+{
+  "domain": "lancom_ble",
+  "name": "Lancom BLE Gateway",
+  "codeowners": ["@phiten"],
+  "config_flow": true,
+  "dependencies": ["bluetooth", "webhook"],
+  "documentation": "https://github.com/phiten/lancom-ble-gateway",
+  "iot_class": "local_push",
+  "issue_tracker": "https://github.com/phiten/lancom-ble-gateway/issues",
+  "requirements": [],
+  "version": "1.2.0",
+  "platforms": ["sensor"]
+}

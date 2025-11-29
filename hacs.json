@@ -1,0 +1,9 @@
+{
+  "name": "Lancom BLE Gateway",
+  "content_in_root": false,
+  "render_readme": true,
+  "filename": "hacs.json",
+  "domains": ["lancom_ble"],
+  "homeassistant": "2023.8.0",
+  "zip_release": false
+}

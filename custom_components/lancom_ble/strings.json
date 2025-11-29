@@ -1,0 +1,25 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Lancom BLE Gateway einrichten",
+        "description": "Webhook-ID und optional die AP-MACs (für sofortige Scanner-Erstellung).",
+        "data": {
+          "webhook_id": "Webhook ID",
+          "ap_macs": "AP MACs (optional, Komma oder Zeilen)"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Lancom BLE Gateway Optionen",
+        "data": {
+          "webhook_id": "Webhook ID",
+          "ap_macs": "AP MACs (Liste)"
+        }
+      }
+    }
+  }
+}

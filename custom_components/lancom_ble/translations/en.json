@@ -1,0 +1,25 @@
+{
+    "config": {
+      "step": {
+        "user": {
+          "title": "Set up Lancom BLE Scanner",
+          "description": "Webhook ID and optional AP MACs (to create scanners immediately).",
+          "data": {
+            "webhook_id": "Webhook ID",
+            "ap_macs": "AP MACs (optional, comma or lines)"
+          }
+        }
+      }
+    },
+    "options": {
+      "step": {
+        "init": {
+          "title": "Lancom BLE Options",
+          "data": {
+            "webhook_id": "Webhook ID",
+            "ap_macs": "AP MACs (list)"
+          }
+        }
+      }
+    }
+  }

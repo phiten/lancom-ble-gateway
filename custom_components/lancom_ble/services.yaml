@@ -1,0 +1,15 @@
+add_ap:
+  name: AP hinzufügen
+  description: Fügt einen Lancom Access Point (BLE Scanner) hinzu und injiziert ein Self-Advert.
+  fields:
+    mac:
+      description: MAC Adresse (AA:BB:CC:DD:EE:FF oder AABBCCDDEEFF)
+      example: "00:A0:57:80:2C:70"
+
+sync_registry:
+  name: Registry synchronisieren
+  description: Setzt bestehende Lancom-Geräte auf Basis-Connection ('mac') und verknüpft sie.
+
+consolidate_devices:
+  name: Duplikate konsolidieren
+  description: Entfernt doppelte Lancom-Geräte für identische MACs (ein Gerät bleibt).
